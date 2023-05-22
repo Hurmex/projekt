@@ -1,0 +1,280 @@
+body, html {
+    background-color: white;
+    color: black;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.nadpis {
+    text-decoration: none;
+    color: rgb(7, 156, 246);
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+ol {
+    list-style-type: disc;
+
+}
+
+.text1 {
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: #494d55;
+    width: 100%;
+    box-shadow: 10px 0px 12px 1px black;
+    top: 0;
+    margin: 0;
+
+}
+
+.btn-primary {
+    background-color: #079cf6;
+    border-color: #079cf6;
+
+}
+
+.tlačítko {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 756px) {
+    .col-2-5 {
+        width: 21%;
+
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .button1 {
+        width: 23%;
+
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .button4 {
+        width: 15%;
+        margin-left: -1%;
+        
+    }
+}
+
+.border {
+    border: 40px solid black;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 1px silver;
+
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.card:hover {
+    transform: scale(1.2);
+
+}
+
+.card {
+    transition: 0.7s;
+    text-decoration: none;
+    color: black;
+
+}
+
+@media (max-width:1000px) {
+    .card {
+        margin-bottom: 50px;
+        margin-top: 10px;
+
+    }
+}
+
+.img{
+    margin-top: 1%;
+}
+
+.table {
+    --bs-table-striped-bg: rgba(7, 154, 246, 0.178);
+
+}
+
+.text3 {
+    text-align: center;
+
+}
+
+footer {
+    background-color: #494d55;
+    width: 100%;
+    box-shadow: 0px 0px 12px 1px black;
+    height: 100%;
+    color: white;
+    margin-top: 50px;
+
+}
+
+@media screen and (max-width:756px) {
+    .text-footer {
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width:756px) {
+    .socials-footer {
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width:756px) {
+    .links-footer {
+        padding-left: 56px;
+
+    }
+}
+
+@media screen and (max-width:756px) {
+    .icons-box {
+        padding-left: 62px;
+
+    }
+}
+
+@media screen and (max-width:756px) {
+    .icons-mezera {
+        padding-right: 5px;
+
+    }
+}
+
+.icon {
+    padding-top: 4px;
+
+}
+
+.icon-tran:hover {
+    transform: scale(1.1);
+
+}
+
+.icon-tran {
+    transition: 0.5s;
+
+}
+
+.youtube {
+    color: red;
+
+}
+
+.twitter {
+    color: #1DA1F2;
+
+}
+
+.twitch {
+    color: #6441a5;
+
+}
+
+.insta {
+    color: #C13584;
+
+}
+
+.icons-bottom {
+    margin-bottom: 10px;
+
+}
+
+.icon-mezera {
+    margin-right: 2px;
+
+}
+
+.links-footer {
+    margin-left: -10px;
+
+}
+
+.row2 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x))
+
+}
+
+@media (max-width:756px) {
+    .row2 {
+        justify-content: center;
+
+    }
+}
+
+.box-icon {
+    margin-bottom: -3px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+
+}
+
+.link:hover {
+    color: rgb(7, 156, 246);
+    transition: 0.6s;
+
+}
+
+.link::after,
+.link::before {
+    content: "";
+    width: 100%;
+    border-bottom: 3px solid rgb(7, 156, 246);
+    transform: scaleX(0);
+    position: absolute;
+    right: 0;
+    top: 100%;
+
+}
+
+.link:hover::after,
+.link:hover::before {
+    transform: scaleX(1);
+    transition: 0.5s;
+
+}
+
+.credit {
+    background-color: black;
+    height: 100%;
+
+}
